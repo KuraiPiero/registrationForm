@@ -4,8 +4,12 @@ body {
   margin: 0;
   background: #f5f6f7;
   color: #1b1b32;
+  font-family: "Roboto Slab", serif;
 }
 label {
   display: block;
   margin: 0.5rem 0;
+}
+input {
+  font-family: "Source Sans Pro", sans-serif;
 }
