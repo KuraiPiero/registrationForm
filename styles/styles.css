@@ -11,9 +11,9 @@ body {
 }
 
 .main {
-  width: 40vw;
+  width: 35vw;
   min-width: 25em;
-  height: 30em;
+  height: 35em;
   background: #f7f7f5;
   -webkit-box-shadow: 0px 2px 62px 35px rgba(64, 84, 145, 0.08);
   -moz-box-shadow: 0px 2px 62px 35px rgba(64, 84, 145, 0.08);
@@ -61,14 +61,33 @@ body {
   -webkit-box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
   -moz-box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
   box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
-
+  padding-left: 15px;
   height: 3em;
+}
+.form__pass-instructions {
+  font-size: 0.5em;
+}
+.form__submit {
+  border: none;
+  background: #2f83dc;
+  width: 90%;
+  height: 3em;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 7px 20px 4px rgba(0, 0, 0, 0.11);
+}
+input:focus {
+  outline: none;
+  background-color: #f7faff;
+}
+.form__submit:hover {
+  background: #1073ff;
 }
 ::placeholder {
   margin-left: 16px;
   opacity: 0.5;
   width: 80%;
-}
-.form__pass-instructions {
-  font-size: 0.5em;
+  font-family: "Roboto Slab", serif;
+  margin: 1px;
 }
